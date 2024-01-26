@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    input {
+      display: block;
+      width: 200px;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      align-items: center;
+  
+    }
+    
+    button {
+      display: none;
+      background-color: aqua;
+      font-weight: bold;
+      border-radius: 3px;
+      width: 200px;
+    }
+
+    input:not(:placeholder-shown) + button {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="search-container">
+    <input placeholder="Pesquise alguma coisa..."/>
+    <button>Pesquisar</button>
+  </div>
+</body>
+</html>

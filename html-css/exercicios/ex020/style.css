@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+  background-color: #d6fde9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div > #child1 {
+  display: none;
+}
+div > #child2 {
+  display: none;
+}
+div > #child {
+  display: none;
+}
+
+div {
+  display: inline-block;
+  background-color: lightgray;
+  border: 1px solid black;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+}
+
+div:hover {
+background-color: yellow;
+}

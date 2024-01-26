@@ -1,0 +1,11 @@
+ul {
+  list-style-type: none;
+}
+
+li::before {
+  content: "\2022"; /* código unicode para o caractere de ponto preto (•) */
+  margin-right: 0.2em; /* margem direita para separar o ícone do texto */
+  color: #007bff; /* cor do ícone */
+  font-size: 25px;
+}
+

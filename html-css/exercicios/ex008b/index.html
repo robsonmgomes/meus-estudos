@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outras Formatações</title>
+  </head>
+  <body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>
+      O comando <code>document.getElementById('teste')</code> é escrito em
+      linguagem JavaScript.
+    </p>
+    <!--! A tag CODE transforma o texto em formanto de fonte monoespaçada, sendo ideal para ler códigos.-->
+    <pre>
+    <code>
+  num = int(input('Digite um número'))
+  if num % 2 == 0:
+      print(f'O número {num} é PAR')
+  else:
+      print(f'O número {num} é IMPAR')
+  print('Fim do programa')
+    </code>
+    </pre>
+    <!--! A tag PRE mesclada com a tag CODE permite a formatação visualizada com identação (respeitando espaços, tabulações, etc). obs: para diminuir uma tabulação, seleciona o texto e aperta SHIFT + TAB, para adicionar tabulação, seleciona e aperta em TAB-->
+    <h2>Citações simples</h2>
+    <p>
+      Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>
+    </p>
+    <!--! Diferente de adicionar somente as aspas, a tag Q dá sentido ao código da página (semântica)-->
+    <h2>Citações completas</h2>
+    <p>Segundo Maurício Samy, no seu livro Fundamentos de HTML e CSS:</p>
+    <blockquote
+      cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover"
+    >
+      <!--! A tag CITE permite referenciar um link de alguma citação. Não aparece informação nenhuma na página, porém serve para permitir aos mecanismos de busca identificar o local que o texto foi retirado-->
+      A HTML foi criada para ser uma linguagem exclusivamente de marcação e
+      estrutura de conteúdos. Isso significa que, segundo seus idealizadores,
+      não cabe à HTML fornecer informações ao agente do usuário sobre a
+      apresentação dos elementos.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>
+      Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e
+      <abbr title="Cascading Style Sheet">CSS</abbr>. Estou adorando!
+    </p>
+    <!--! A tag ABBR cria uma abreviação no texto selecionado-->
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!--! Tag inútil. Serve para inverter o texto-->
+  </body>
+</html>

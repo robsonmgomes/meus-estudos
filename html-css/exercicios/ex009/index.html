@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas</title>
+</head>
+<body>
+  <h1>Trabalhando com listas</h1>
+  <h2>Listas ordenadas com números</h2>
+  <ol type="1" start="1"> <!--! O type 1 representa o tipo da odem da lista (nesse caso é numérica), e o 'start 1' representa de qual número a lista se inicia (nesse caso, do número 3)-->
+  <!--* Os tipos de ordens são 1 (números) A (letras maiúsculas) a (letras minúsculas) I (algarísmos romanos maiúsculo) i (algarismo romano minúsculo)-->
+    <li>Acordar
+    <li>Ligar para o João assim que acordar</li> <!--! A partir do HTML 5, o fechamento '</li> se tornou opcional -->
+    <li>Tomar café
+    <li>Escovar os dentes
+    <li>Ir para a faculdade</li>
+    <li>Almoçar</li>
+    <li>Ir para o trabalho</li>
+    <li>Voltar para casa</li>
+    <li>Jantar</li>
+    <li>Dormir</li>
+  </ol>
+
+  <h2>Listas ordenadas com letras (maiúsculas ou minúsculas)</h2>
+  <ol type="A" start="1"> <!--! O type 1 representa o tipo da odem da lista (nesse caso é numérica), e o 'start 1' representa de qual número a lista se inicia (nesse caso, do número 3)-->
+  <!--* Os tipos de ordens são 1 (números) A (letras maiúsculas) a (letras minúsculas) I (algarísmos romanos maiúsculo) i (algarismo romano minúsculo)-->
+    <li>Acordar
+    <li>Ligar para o João assim que acordar</li> <!--! A partir do HTML 5, o fechamento '</li> se tornou opcional -->
+    <li>Tomar café
+    <li>Escovar os dentes
+    <li>Ir para a faculdade</li>
+    <li>Almoçar</li>
+    <li>Ir para o trabalho</li>
+    <li>Voltar para casa</li>
+    <li>Jantar</li>
+    <li>Dormir</li>
+  </ol>
+
+  <h2>Listas ordenadas com algarismos romanos (maiúsculos ou minúsculos)</h2>
+  <ol type="I" start="1"> <!--! O type 1 representa o tipo da odem da lista (nesse caso é numérica), e o 'start 1' representa de qual número a lista se inicia (nesse caso, do número 3)-->
+  <!--* Os tipos de ordens são 1 (números) A (letras maiúsculas) a (letras minúsculas) I (algarísmos romanos maiúsculo) i (algarismo romano minúsculo)-->
+    <li>Acordar
+    <li>Ligar para o João assim que acordar</li> <!--! A partir do HTML 5, o fechamento '</li> se tornou opcional -->
+    <li>Tomar café
+    <li>Escovar os dentes
+    <li>Ir para a faculdade</li>
+    <li>Almoçar</li>
+    <li>Ir para o trabalho</li>
+    <li>Voltar para casa</li>
+    <li>Jantar</li>
+    <li>Dormir</li>
+  </ol>
+  
+  <h2>Listas não ordenadas - Tipo "circle"</h2>
+    <ul type="circle"> <!--* Os tipos de listas não ordenadas são disc, circle, square -->
+      <li>Pão</li>
+      <li>Leite</li>
+      <li>Tomate</li>
+      <li>Manteiga</li>
+      <li>Arroz</li>
+      <li>Feijão</li>
+    </ul>
+
+    <h2>Listas não ordenadas - Tipo "disc" </h2>
+    <ul type="disc"> <!--* Os tipos de listas não ordenadas são disc, circle, square -->
+      <li>Pão</li>
+      <li>Leite</li>
+      <li>Tomate</li>
+      <li>Manteiga</li>
+      <li>Arroz</li>
+      <li>Feijão</li>
+    </ul>
+
+    <h2>Listas não ordenadas - Tipo "square"</h2>
+    <ul type="square"> <!--* Os tipos de listas não ordenadas são disc, circle, square -->
+      <li>Pão</li>
+      <li>Leite</li>
+      <li>Tomate</li>
+      <li>Manteiga</li>
+      <li>Arroz</li>
+      <li>Feijão</li>
+    </ul>
+
+  <h2>Linguagens favoritas</h2>
+  <ol>
+      <li>Antigas</li>
+      <ol type="a">
+        <li>Cliper</li>
+        <li>Visual Basic</li>
+        <li>Fortran</li>
+        <li>Delphin</li>
+      </ol>
+      <li>Novas</li>
+      <ol type="a" start="5">
+        <li>PHP</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Kotlin</li>
+      </ol>
+  </ol>
+  <h2>Meus jogos favoritos</h2>
+  <ol>
+    <li>NES</li>
+    <ul type="square"> <!--! Para selecionar várias tags, é só segurar o alt, clicar em cada tag que será mudada e preencher com a nova informação -->
+      <li>Mário Bros</li>
+        <ul type="circle">
+          <li>Mário Bros 3</li>
+          <li>Mário: Lost Levels 3</li>
+        </ul>
+      <li>Ninja Gaiden</li>
+    </ul>
+    <li>SNES</li>
+      <ul type="square">
+        <li>Cadillac Dinossauros</li>
+        <li>Top Gear</li>
+      </ul>
+    <li>PlayStation</li>
+      <ul type="square">
+        <li>Black</li>
+        <li>Doom,</li>
+      </ul>
+  </ol>
+  <h2>Lista de definições</h2>
+  <dl> <!--* Definition list-->
+    <dt>HTML</dt> <!--* Definition term-->
+      <dd>Linguagem de marcação para criação do conteúdo de um site</dd> <!--* Definition description-->
+    <dt>CSS</dt> <!--* Definition term-->
+      <dd>Linguagem de marcação para criação do design de um site</dd> <!--* Definition description-->
+    <dt>JavaScript</dt> <!--* Definition term-->
+      <dd>Linguagem de programação para criação de interatividade de um site</dd> <!--* Definition description-->
+  </dl>
+</body>
+</html>

@@ -1,0 +1,12 @@
+* {
+  margin: 10px;
+}
+
+body {
+  font: normal normal 1.1em poppins, sans-serif;
+  text-align: justify;
+}
+
+h1, h2 {
+  font: normal 500 2.3em poppins, sans-serif;
+}
