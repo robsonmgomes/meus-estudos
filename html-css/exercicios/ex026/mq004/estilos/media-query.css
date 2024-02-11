@@ -33,6 +33,7 @@ Grandes telas: acima de 1200px
   text-shadow: none;
   color: black;
  }
+ 
   main {
     border: 2px solid black;
   }
@@ -50,7 +51,7 @@ Grandes telas: acima de 1200px
     background-image: url(../imagens/back-tablet.jpg);
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   main {
     width: 700px;
@@ -69,6 +70,11 @@ Grandes telas: acima de 1200px
   main {
     width: 810px;
   }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
   img#phone {display: none;}
   img#tablet {display: none;}
   img#print{display: none;}
@@ -81,8 +87,13 @@ Grandes telas: acima de 1200px
     background-image: url(../imagens/back-tv.jpg);
   }
   main {
-    width: 900px;
+    width: 950px;
   }
+
+  h1 {
+    font-size: 2.8em;
+  }
+
   img#phone {display: none;}
   img#tablet {display: none;}
   img#print{display: none;}
