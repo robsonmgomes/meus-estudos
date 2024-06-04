@@ -1,0 +1,12 @@
+.container {
+  background-color: lightsalmon;
+  display: flex;
+}
+
+.item {
+  background-color: lightblue;
+  border: 1px solid grey;
+  flex: auto;
+  text-align: center;
+  height: 100px;
+}
