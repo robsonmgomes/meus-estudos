@@ -1,13 +1,12 @@
 .container {
   background-color: lightsalmon;
   display: flex;
-  flex-direction:row-reverse;
-
+  flex-direction:row;
 }
 
 .item {
-  background-color: lightblue;
-  border: 1px solid grey;
+  background-color: rgb(4, 118, 156);
+  border: 1px solid rgb(73, 72, 72);
   text-align: center;
   padding: 10px;  
 }
