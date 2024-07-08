@@ -2,11 +2,15 @@
   background-color: lightsalmon;
   display: flex;
   flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
 }
 
 .item {
   background-color: rgb(4, 118, 156);
-  border: 1px solid rgb(73, 72, 72);
+  border: 1spx solid rgb(226, 225, 225);
   text-align: center;
   padding: 10px;  
+  margin: 2px;
 }
