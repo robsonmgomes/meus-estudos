@@ -1,0 +1,15 @@
+.container {
+  background-color: lightsalmon;
+  display: flex;
+  flex-flow: row wrap;
+  height: 400px;
+  justify-content: center;
+}
+
+.item {
+  background-color: lightblue;
+  border: 1px solid grey;
+  text-align: center;
+  padding: 40px; 
+  align-self: center; 
+}
