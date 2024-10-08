@@ -9,5 +9,13 @@ header > h1 {
 }
 
 header > nav > a {
-  width: 80vw;
+  width: 95vw;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
 }
